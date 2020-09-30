@@ -1,0 +1,3 @@
+ansible-vault encrypt keys.yml
+
+ansible-playbook --ask-vault-pass TestAnsible.yml
